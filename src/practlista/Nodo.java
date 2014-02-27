@@ -10,6 +10,7 @@ public class Nodo<T> {
     
     Nodo(T info){
         this.dato=info;
+        this.liga=null;
     }
 
     /**
